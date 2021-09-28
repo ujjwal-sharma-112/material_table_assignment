@@ -1,25 +1,15 @@
-import logo from './logo.svg';
+import React from "react";
+import RemoteData from './Components/RemoteData';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Nemesis Consultants LLP</h1>
+      <h3 style={{marginBottom: 60}}>JsonPlaceHolder Data Fetching</h3>
+      <RemoteData />
     </div>
   );
-}
+};
 
 export default App;
