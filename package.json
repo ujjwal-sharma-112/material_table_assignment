@@ -1,5 +1,4 @@
 {
-  "homepage": "http://ujjwal-sharma-112.github.io/material_table_assignment",
   "name": "material_table_assignment",
   "version": "0.1.0",
   "private": true,
@@ -10,15 +9,13 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "cross-env": "^7.0.3",
-    "material-table": "^1.69.3",
+    "material-table": "^1.63.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "cross-env BROWSER=Firefox react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,8 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
